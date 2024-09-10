@@ -22,7 +22,7 @@ public class MetodosCadena {
         var varcadenaMinuscula = cadenaMayuscaula.toLowerCase();
         System.out.println("varcadenaMinuscula = " + varcadenaMinuscula);
 
-        //Quitar espacio es blanco
+        //Eliminar espacios al inicio y al final
         var texto = "   Anghelo Huane     ";
         System.out.println("texto = " + texto);
         System.out.println("texto = " + texto.trim());

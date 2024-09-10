@@ -8,8 +8,11 @@ public class ManejoSubcadenas {
         var cadena1 = cadenaPrime.substring(0,4);
         System.out.println("cadena1 = " + cadena1);
         //Segunda cadena
-        var caden2 = cadenaPrime.substring(5);
-        System.out.println("caden2 = " + caden2);
+        var cadena2 = cadenaPrime.substring(5);
+        System.out.println("cadena2 = " + cadena2);
+        //Otra manera de obtener la ultima cadena
+        var cadena3 = cadenaPrime.substring(5,10);
+        System.out.println("cadena3 = " + cadena3);
 
     }
 }
