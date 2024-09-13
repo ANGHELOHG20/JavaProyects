@@ -1,24 +1,35 @@
 public class GeneradorEmail {
     public static void main(String[] args) {
 
-        //Declaracion de Variables
-        var nombre="Ubaldo Acosta Soto";
-        var empresa="Global Mentoring";
-        var dominio=".com.mx";
+        System.out.println("*** GENERADOR DE EMAILS ***");
 
-        //Numero de caracteres de las variables
-        System.out.println("Nombre = " + nombre.length());
-        System.out.println("Empresa = " + empresa.length());
-        System.out.println("Dominio = " + dominio);
+        //Nombre Completo del usuario
+        var nombreCompleto = " Anghelo Huane Gutierrez";
+        System.out.println("nombreCompleto = " + nombreCompleto);
+        //Procesar o normalizar el nombre de usuario
+        //Limpiar los espacios en blanco al incio y al final
+        var nombreNormalizado = nombreCompleto.strip();
+        //Reemplazar los espacio en blanco por punto
+        nombreNormalizado =nombreNormalizado.replace(" ",".");
+        //Convertir a minusculas
+        nombreNormalizado = nombreNormalizado.toLowerCase();
+        System.out.println("nombreNormalizado = " + nombreNormalizado);
 
-        //Imprimir Variables
-        System.out.println("Nombre usuario = " + nombre);
-        System.out.println("Nombre usuario normalizado = " + nombre.replace(" ","").trim().toLowerCase());
-        System.out.println("Extensión del dominio = " + dominio);
-        System.out.println("Dominio del email normalizado: " +
-                dominio.replace(" ","").toLowerCase());
+        //Datos de la empresa
+        var nombreEmpresa= "Louis Vuitton";
+        System.out.println("\nNombre empresa = " + nombreEmpresa);
+        var extensionDominio= ".com.pe";
+        System.out.println("Extensión del dominio: " + extensionDominio);
+
+        //Quitamos espacios en blanco y convertimos a minúsculas
+        var nombreEmpresaNormalizado =nombreEmpresa.strip().replace(" ","").toLowerCase();
+        var dominioEmailNormalizado="@" + nombreEmpresaNormalizado + extensionDominio;
+        System.out.println("dominioEmailNormalizado = " + dominioEmailNormalizado);
 
         //Email
-        System.out.println("Email: " + );
+        var Email = nombreNormalizado+dominioEmailNormalizado;
+        System.out.println("Email = " + Email);
+
+
     }
 }
