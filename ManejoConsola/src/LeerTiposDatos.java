@@ -26,6 +26,13 @@ public class LeerTiposDatos {
         System.out.println("Nombre = " + nombre);
 
         //Conversion de datos
-
+        //Tipo Int
+        System.out.print("Proporciona un valor entero: ");
+        var entero = Integer.parseInt(consola.nextLine());
+        System.out.println("entero = " + entero);
+        //Tipo Float
+        System.out.print("Proporciona un valor flotante: ");
+        var flotante = Float.parseFloat(consola.nextLine());
+        System.out.println("flotante = " + flotante);
     }
 }
