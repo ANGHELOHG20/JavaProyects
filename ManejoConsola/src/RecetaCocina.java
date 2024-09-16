@@ -23,7 +23,7 @@ public class RecetaCocina {
         System.out.println("--- Receta de Cocina ---");
         System.out.println("Nombre receta: " + nombreReceta);
         System.out.println("Ingredientes: " + ingredientesReceta);
-        System.out.println("Tiempo de preparación: " + tiempoReceta);
+        System.out.println("Tiempo de preparación: " + tiempoReceta + " minutos");
         System.out.println("Dificultad: " + dificultadReceta);
 
     }
