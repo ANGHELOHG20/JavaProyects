@@ -13,9 +13,13 @@ public class NumerosAleatorios {
         numeroAleatorio=random.nextInt(10) + 1;
         System.out.println("Número aleatorio entre 1 y 10: " + numeroAleatorio);
 
-        // Generar un numero aleatoria entre 0 y 100
-        numeroAleatorio=random.nextInt(100);
-        System.out.println("numeroAleatorio = " + numeroAleatorio);
+        // Generar un numero flotante entre 0.0 y 1.0
+        var flotanteAleatorio = random.nextFloat();
+        System.out.println("flotanteAleatorio = " + flotanteAleatorio);
+
+        // Simular el lanzamiento de un dado (1 y 6)
+        var dado = random.nextInt(6) + 1;
+        System.out.println("Resultado de lamzar el dado = " + dado);
 
     }
 }
