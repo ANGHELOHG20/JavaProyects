@@ -10,4 +10,6 @@ public class Lab6HuaneApplication {
 		SpringApplication.run(Lab6HuaneApplication.class, args);
 	}
 
+
+
 }
