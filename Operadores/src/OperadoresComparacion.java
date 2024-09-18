@@ -23,7 +23,7 @@ public class OperadoresComparacion {
         resultado= a < b;
         System.out.println("Resultado a < b: " + resultado);
         //Menor o igual que
-        resultado= a =< b;
+        resultado= a <= b;
         System.out.println("Resultado a =< b: " + resultado);
     }
 }
