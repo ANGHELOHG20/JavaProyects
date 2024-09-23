@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CalcularAreaPerimetro {
     public static void main(String[] args) {
+
         System.out.println("*** AREA Y PERIMETRO DE UN RECTÁNGULO***");
 
         var cd = new Scanner(System.in);
@@ -16,5 +17,6 @@ public class CalcularAreaPerimetro {
 
         var areaRectangulo= (baseRectangulo*alturaRectangulo);
         System.out.println("El área del rectángulo es: " + areaRectangulo);
+
     }
 }
