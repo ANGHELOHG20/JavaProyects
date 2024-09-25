@@ -6,8 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Operadores/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SentenciasDecision/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ciclos/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/lab6_Huane/src/main/java/pe/edu/utp/lab6_Huane" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
