@@ -9,7 +9,7 @@ public class JuegoDeAdivinanzas {
         var cd = random.nextInt(50);
 
         var in = new Scanner(System.in);
-        System.out.print("Adivina el número: ");
+        System.out.print("Adivina el número (0 - 50): ");
         var numero = in.nextInt();
         var intento = 1;
 
@@ -20,7 +20,7 @@ public class JuegoDeAdivinanzas {
                 System.out.println("El número es mayor");
             }
             System.out.println("Te equivocaste, prueba de nuevo");
-            System.out.print("Adivina el número: ");
+            System.out.print("Adivina el número (0 - 50): ");
             numero = in.nextInt();
             intento++;
         }
