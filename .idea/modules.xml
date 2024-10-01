@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arreglos/Arreglos.iml" filepath="$PROJECT_DIR$/Arreglos/Arreglos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cadenas/Cadenas.iml" filepath="$PROJECT_DIR$/Cadenas/Cadenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Funciones/Funciones.iml" filepath="$PROJECT_DIR$/Funciones/Funciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/IntroduccionJava/IntroduccionJava.iml" filepath="$PROJECT_DIR$/IntroduccionJava/IntroduccionJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaProyects.iml" filepath="$PROJECT_DIR$/.idea/JavaProyects.iml" />
       <module fileurl="file://$PROJECT_DIR$/ManejoConsola/ManejoConsola.iml" filepath="$PROJECT_DIR$/ManejoConsola/ManejoConsola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matriz/Matriz.iml" filepath="$PROJECT_DIR$/Matriz/Matriz.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
     </modules>
   </component>
