@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arreglos/Arreglos.iml" filepath="$PROJECT_DIR$/Arreglos/Arreglos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cadenas/Cadenas.iml" filepath="$PROJECT_DIR$/Cadenas/Cadenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clases/Clases.iml" filepath="$PROJECT_DIR$/Clases/Clases.iml" />
       <module fileurl="file://$PROJECT_DIR$/Funciones/Funciones.iml" filepath="$PROJECT_DIR$/Funciones/Funciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/IntroduccionJava/IntroduccionJava.iml" filepath="$PROJECT_DIR$/IntroduccionJava/IntroduccionJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaProyects.iml" filepath="$PROJECT_DIR$/.idea/JavaProyects.iml" />
